@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>HTML- Formularios</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-wiidth">
+		<link rel="stylesheet" type="text/css" href="./CSS/style2.css">
+	</head>
+	<body>
+		<header>
+			<h2>Curso Front-end-HTML</h2>
+		</header>
+
+		<section>
+
+			<nav>
+				<ul>
+					<li id="#primeiro-link"><a href="05-layouts.html">Home</a></li> <br>
+					<li><a href="#sobre">Sobre</a></li> <br>
+					<li><a href="#contato">Contato</a></li> <br>
+				</ul>
+			</nav>
+
+			<article >
+				<h1 class="#navegacao">Contato </h1>
+				<p>Preencha os campos abaixo</p>
+				<form method="post">
+					<div>
+						<label form="nome">Nome</label><br>
+						<input type="text" name="name" id="nome" placeholder="Digite seu nome">
+					</div>
+					
+					<div>
+						<label for="email">Email</label><br>
+						<input type="email" name="email" id="email" placeholder="Digite seu email">
+					</div>
+					
+					<div>
+						<label for="mensagem">Mensagem</label><br>
+						<textarea name="mensagem" id="mensagem" rows="5" placeholder="Digite uma mensagem"></textarea>
+					</div>
+					
+					<div>
+						<p>
+						<label>Qual linguagem você prefere?</label>
+						<input type="radio" name="linguagens" value="html"> HTML
+						<input type="radio" name="linguagens" value="css"> CSS
+						<input type="radio" name="linguagens" value="javascript"> JavaScript</p>
+					</div>
+					<div>
+						<p>
+						<label>Quais linguagens você sabe?</label>
+						<input type="checkbox" name="linguagens" value="html"> HTML
+						<input type="checkbox" name="linguagens" value="css"> CSS
+						<input type="checkbox" name="linguagens" value="javascript"> JavaScript</p>
+					</div>
+					<div>
+						<label>Qual sua cor favorita?</label>
+						<select>
+							<option value="Azul" > Azul</option>
+							<option value="Preto" selected>Preto</option>
+							<option value="Vermelho">Vermelho</option>
+						</select>
+					</div>
+					<div>
+						<input type="submit" >
+					</div>
+				</form>
+				
+			</article>
+		</section>
+		<footer> 
+			<h3 class="nome">Desenvolvido pelo Lucas</h3>
+		</footer>
+	</body>
+</html>

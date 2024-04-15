@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br"
+	<head>
+		<title>HTML- Layouts</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-wiidth">
+		<style>
+			* {
+			  box-sizing: border-box;
+			}
+
+			body {
+			  font-family: Arial, Helvetica, sans-serif;
+			}
+
+			/* Style the header */
+			header {
+			  background-color: #666;
+			  padding: 30px;
+			  text-align: center;
+			  font-size: 35px;
+			  color: white;
+			}
+
+			/* Create two columns/boxes that floats next to each other */
+			nav {
+			  float: left;
+			  width: 30%;
+			   
+			  background: #ccc;
+			  padding: 20px;
+			}
+
+			/* Style the list inside the menu */
+			nav ul {
+			  list-style-type: none;
+			  padding: 0;
+			}
+
+			article {
+			  float: left;
+			  padding: 20px;
+			  width: 70%;
+			  background-color: #f1f1f1;
+			}
+
+			/* Clear floats after the columns */
+			section::after {
+			  background: #ccc;
+			  content: "";
+			  display: table;
+			  clear: both;
+			}
+
+			/* Style the footer */
+			footer {
+			  background-color: #777;
+			  padding: 10px;
+			  text-align: center;
+			  color: white;
+			}
+
+			/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+			@media (max-width: 600px) {
+			  nav, article {
+			    width: 100%;
+			    height: auto;
+			  }
+			}
+			</style>
+	</head>
+	<body>
+		<header>
+			<h2>Titulo da Pagina</h2>
+		</header>
+
+		<section>
+
+			<nav>
+				<ul>
+					<li><a href="#home">Home</a></li>
+					<li><a href="#sobre">Sobre</a></li>
+					<li><a href="./06-formularios.html">Contato</a></li>
+				</ul>
+			</nav>
+
+			<article>
+				<h1>Título Artigo</h1>
+				<p>O cliente está muito feliz. E acusamo-nos ou de que ele foge do corpo, ou então de que foge, porque a fuga não é um prazer, mas um exercício de comodidade. E as vantagens, exceto que o tempo é grande e os problemas são todos grandes nos homens mais dignos e grandes. 33 Ele se agrada da liberdade de quem está confortável! Outros caminhos, e existem, serão seguidos, ou poderemos ser capazes de recusar a dor aqui.</p>
+
+<p>Quem eu abrir, aceitarei por mais difícil que seja, porque é difícil nascer quem seja mais digno de problemas ou menos problemas. E pois podemos escolher ou ser libertos conforme os próprios trabalhos, mas a distinção entre o bem-aventurado e o próprio prazer e o menos corrupto.</p>
+
+<p>Eles caem dos abandonados, e tudo o que nasce dos bem-aventurados, ou de todos os problemas, daí em diante não há nada que seja devidamente triste. Mas deixá-lo receber tais lisonjas e prazeres, deixá-lo buscar caminhos e vantagens para nós, e nos acusar de vantagens e erros para nós? Pois deixe-o fugir rapidamente da dor de suas dores, para que nenhum dos acusadores, mas ela mesma. Para que nada se consiga porque é para ser assumido com ódio.</p>
+			</article>
+		</section>
+		<footer> <p>Desenvolvido pelo Lucas</p>
+		</footer>
+	</body>
+</html>
