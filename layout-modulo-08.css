@@ -1,0 +1,75 @@
+/* 
+
+	Arquivo CSS geral com estilos dos elementos de todas páginas 
+
+*/
+
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+      margin: 0;
+      padding: 0;
+      font-size: 62.5%; /* equivalente a 10px */
+  }
+  
+  
+  
+  h1 {
+      font-size: 2rem;
+      color: rgb(230, 255, 1);
+  }
+  
+  h2 {
+      font-size: 1.8rem;
+      color: white;
+  }
+  
+  form {
+      background: #eee;
+      padding: 10px;
+  }
+  
+  header {
+   
+    text-align: center;
+    font-size: 55px;
+    color: rgb(255, 255, 255);
+  }
+  
+  nav {
+    float: left;
+    width: 20%;
+    padding: 10px;
+  }
+  
+  article {
+    float: left;
+    padding: 10px;
+    width: 80%;
+  }
+  article h1 {
+    text-align: center;
+    font-size: 3rem;
+  }
+  article ul {
+    font-size: 1.5rem;
+    padding: 15px;
+  }
+
+  div h3 {
+    font-size: 2.5rem;
+    padding: 15px;
+    color: rgb(230, 255, 1);
+  }
+    
+  
+.resumo {
+  background-color: #75717190;
+  font-weight: 600;
+    font-size: 2rem;
+    padding: 20px;
+    color: rgb(3, 3, 3);
+}
+

@@ -1,0 +1,90 @@
+
+/* 
+
+	Herança
+
+	1. Sobreposição / Sobrescreve
+	2. Aplica a último estilo definido
+	3. Prioriza estilo específicas (com seletores mais próximos)
+	4. Se aplica a todas as propriedades
+
+ */
+
+
+html {
+	font-family: Arial, Helvetica, sans-serif;
+	}
+
+	body {
+		
+		background: url(../images/matrix.png) center top repeat;
+		backdrop-filter: contrast(10px);
+	}
+header {
+	background-color: rgb(0, 0, 0);
+}
+
+header h2 {
+	background-color: rgb(255, 251, 0);
+	color:black;
+	font-size: 2rem;
+}
+
+header p {
+	font-size: 2.5rem;
+	font-weight: 200;
+	padding: 5px;
+	
+}
+
+
+nav h3 {
+	color: white;
+	font-size: 3rem;
+	font-weight: bolder;
+	margin: 5px;
+}
+
+
+.navegacao {
+	
+	padding: 1rem;
+	margin: 5px;
+	list-style: none;
+}
+
+
+.navegacao li a {
+	color: rgb(255, 255, 255);
+	font-size: 1.5rem;
+
+}
+
+.navegacao li a:hover {
+	background-color: rgba(80, 78, 78, 0.5);
+	
+}
+
+article ul li {
+	
+	background-color: #3a393980;
+	color: white;
+	font-weight: 650;
+	padding: 5px;
+}
+
+
+.nome  {
+	font-weight: 700;
+	text-align: center;
+	padding: 20px;
+	color: black;
+	background-color: aquamarine;
+	
+}
+
+.nome {
+	padding: 0px;
+	margin: 0px;
+	font-size: 1.5rem;
+}
