@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>HTML - Layouts</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- RESET -->
+        <link rel="stylesheet" type="text/css" href="./css/reset.css">
+		
+		<!-- GOOGLE FONTS -->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet"> 
+		
+		<!-- Estilos Personalizados -->
+		<link rel="stylesheet" type="text/css" href="./css/layout.css">
+        <link rel="stylesheet" type="text/css" href="./css/graficos.css">
+	</head>
+
+    <!-- <span></span> E uma TAG generica parase usar normamente igual a DIV -->
+
+	<body>
+
+		<header>
+			<h1>Curso Front-end - HTML</h1>
+		</header>
+
+		<section>
+
+			<nav>
+                <h2>Aulas</h2>
+
+				<ul class="navegacao">
+					
+					<li id="primeiro-link"><a href="01-introducao.html">Introdução</a></li>
+					<li><a href="02-listas-e-links.html">Listas e Links</a></li>
+					<li><a href="03-formatacao-de-texto.html">Formatação de Texto</a></li>
+					<li><a href="04-tabelas.html">Tabelas</a></li>
+					<li><a href="05-layouts.html">Layouts</a></li>
+					<li><a href="06-formularios.html">Formulários</a></li>
+                    <li><a href="modulo-07-exercicio.html">Fundamentos Css</a></li>
+                    <li><a href="08-layouts-fluidos.html">Layouts Fluidos</a></li>
+                    <li><a href="09-elementos-graficos.html" target="meu-iframe">Elementos Graficos</a></li>
+                    <li><a href="10-layouts-web.html">Layouts Web</a></li>
+				
+                </ul>
+			</nav>
+
+			<article>
+
+				<h3>Desing Responsivo</h3>
+
+                <div class="coluna">
+
+                        <h3>Layouts de Colunas</h3>
+
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/IefJ62_fi2k?si=pwfemEA88xaJbYpO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                </div>
+
+                <div class="coluna">
+                    
+                <div id="grafico-01">
+                    <img class="filtro" src="./images/coffee-square.jpg" alt="Café">
+                </div>
+
+                </div> 
+
+                <div class="coluna coluna-3">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer elementum mattis lectus, non porttitor mi condimentum ut. Duis scelerisque elit id dui feugiat suscipit. Mauris orci est, luctus nec tempor nec, ornare rhoncus tortor. Morbi quis ante sagittis, vulputate libero et, accumsan tellus. Donec dui libero, volutpat eget efficitur non, luctus sit amet lorem. Vestibulum nisi quam, facilisis id erat id, semper pharetra sapien. Sed quis feugiat risus, eget hendrerit elit.
+
+						Fusce lacinia nulla sit amet ligula interdum pulvinar. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean varius quam nec neque suscipit, id accumsan lorem tempus. Etiam dapibus, tortor quis iaculis pharetra, enim felis malesuada nibh, at semper erat neque quis nulla. Cras suscipit mattis hendrerit. Aenean non lacinia tortor. Integer id purus eu nulla faucibus dapibus non a quam. Pellentesque ac posuere lorem. Suspendisse euismod odio urna. Quisque pretium lacus a risus laoreet, lacinia posuere augue blandit. Vivamus ut venenatis ante. Phasellus dignissim volutpat ligula non posuere. Suspendisse potenti.
+						
+						Donec vitae posuere tellus. Duis tempor, dui eget sagittis rhoncus, diam enim commodo massa, at faucibus felis tortor quis purus. Proin ornare facilisis pharetra. Aenean id fermentum est. Morbi eu risus ante. Morbi eros eros, luctus vitae consectetur pharetra, consectetur at ex. Sed scelerisque justo est, sed pretium lectus tincidunt vitae. Quisque dolor nisi, euismod sit amet urna non, fermentum malesuada erat. Integer sed quam eget augue iaculis fringilla. Sed pharetra ex id tellus hendrerit gravida.</p>
+
+                </div>
+
+                <div class="coluna">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.191958167165!2d-46.6463168245779!3d-23.597447662919063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a264d6b6611%3A0xae18ff6a2797997b!2sHospital%20S%C3%A3o%20Paulo!5e0!3m2!1spt-BR!2sbr!4v1713269645385!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+				<!-- cria moldura para carregar uma pagina dentro de outra 
+                    <iframe src="02-listas-e-links.html" width="100%" height="400px" name="meu-iframe"></iframe> -->
+
+            </article>
+
+
+		</section>
+
+		<footer>
+			<p>Desenvolvido por Lucas Coura</p>
+		</footer>
+	
+	
+        </body>
+</html>
