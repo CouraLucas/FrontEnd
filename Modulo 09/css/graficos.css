@@ -1,0 +1,79 @@
+
+
+
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+}
+
+body  {
+    font-size: 1.6rem;
+    color: #000000;
+}
+
+div {
+    margin: 40px auto;
+}
+
+/*Circulo */
+#grafico-01 {
+
+    background-color: brown;
+
+    width: 400px;
+    height: 400px;
+    /*overflow: scroll; (Esse comando controla a barra de rolagem pode eliminar ou colocar barras em arquivos no meio da pagina. */
+    overflow: hidden;
+    border-radius: 100px;
+   
+    
+}
+
+#grafico-01 img {
+    width: 100%;
+    height: auto;
+}
+
+/* Triangulo */
+
+#grafico-02 {
+
+    background: transparent;
+  
+    border-style: solid;
+    border-width: 60px 0px 60px 120px;
+    border-color: transparent transparent transparent blue;
+    width: 60px;
+    
+}
+
+#imagem-vetorial {
+    width: 200px;
+   
+}
+
+canvas {
+    width: 300px;
+    height: 300px;
+}
+
+
+/* FILTROS */
+#grafico-01 {
+    filter: drop-shadow(8px 10px 10px #333);
+    max-width: 100%;
+}
+.filtro {
+    filter: grayscale(100%); /*ESCALA DE CINZA*/
+    filter: blur(5px); /*FILTRO PARA DESFOCAR A IMAGEM*/
+    filter: brightness(100%); /*BRILHO 100% = ao normal da imagem  */
+    filter: invert(100%); /*INVERTE AS CORES DA IMAGEM*/
+    filter: opacity(50%); /*DEIXA A IMAGEM MAIS TRANSPARENTE */
+    filter: saturate(205%) sepia(100%); /*Combinar filtros atraves do espaço */
+}
+
+.filtro:hover {
+    filter: grayscale(0%); /*QUANDO PASSAS O MOUSE NA IMAGEM TIRA A COR CINZA*/
+    ;
+}

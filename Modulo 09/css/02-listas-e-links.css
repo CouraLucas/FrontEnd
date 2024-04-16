@@ -1,0 +1,39 @@
+@media (min-width: 769px) {
+
+    body {
+      background-color: #80808050;
+      font-size: 2.5rem;
+      
+    }
+  }
+  
+  
+  @media (max-width: 768px) {
+  
+    body {
+      background-color: yellow;
+      font-size: 1.5rem;
+    }
+  
+  nav {
+    width: 50vw;
+  }
+  
+  
+  
+  
+  }
+  
+  /*smartphone */
+  @media (max-width: 426px){
+  
+    body {
+      background-color: #03959850;
+    }
+  
+    body {
+      background-color: #03959890;
+      font-size: 2rem;
+    }
+  
+  }

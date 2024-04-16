@@ -1,0 +1,167 @@
+/* 
+
+	Arquivo CSS geral com estilos dos elementos de todas páginas 
+
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+	margin: 0;
+	padding: 0;
+	font-size: 62.5%; /* equivalente a 10px */
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+	background-color: rgb(130, 125, 125);
+}
+
+h3 {
+  font-size: 2rem;
+  padding: 10px;
+}
+
+h2 {
+	font-size: 2.5rem;
+  padding: 10px;
+}
+
+h1 {
+	font-size: 2.8rem;
+  color: rgb(0, 0, 0);
+}
+
+form {
+	background: #eee;
+	padding: 10px;
+}
+
+header {
+  background-color: #08f64c90;
+  padding: 30px;
+  text-align: center;
+ 
+}
+
+nav {
+  background-color: #80808040;
+  float: left;
+  width: 20%;
+  padding: 20px;
+}
+
+nav ul li  {
+  
+  padding: 5px;
+}
+
+nav a {
+  color: black;
+  font-weight: 700;
+}
+
+
+article {
+  /*background-color: yellow; */
+  float: left;
+  padding: 20px;
+  width: 70%;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+footer {
+  background-color: #00000090;
+  padding: 20px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.coluna {
+    display: block;
+    width: 50%;
+    float: left;
+    padding: 5px;
+    /*background: #eee;
+    border: 1px solid #333; */
+}
+.coluna-3 {
+  columns: 100px 2;
+  width: 50%;
+}
+
+iframe {
+  width: 100%;
+}
+
+/* Mobile First */
+
+/*Tablete*/
+
+@media (min-width: 769px) {
+
+  body {
+    background-color: #80808050;
+    
+  }
+}
+
+
+@media (max-width: 768px) {
+
+  body {
+    background-color: yellow;
+  }
+
+nav {
+  width: 30vw;
+}
+
+article {
+  width: 70vw;
+}
+
+.coluna {
+  width: 50vw;
+  min-width: unset;
+}
+
+}
+
+/*smartphone */
+@media (max-width: 426px){
+
+  body {
+    background-color: #03959850;
+  }
+
+
+  nav,
+  article,
+  .coluna{
+    width: 100%;
+    min-width: 320px;
+  }
+
+  body {
+    background-color: #03959890;
+  }
+
+}
+
+
+

@@ -1,0 +1,26 @@
+@media (min-width: 769px) {
+
+    body {
+      background-color: #80808050;
+      
+    }
+  }
+  
+  
+  @media (max-width: 768px) {
+  
+    body {
+      background-color: yellow;
+    }
+ 
+  
+  }
+  
+  /*smartphone */
+  @media (max-width: 426px){
+  
+    body {
+      background-color: #03959850;
+    }
+  
+  }
