@@ -1,0 +1,170 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+.main-container {
+    background-color: #ffffff90;
+    width: 100%;
+}
+
+.container {
+    display: block;
+    float: left;
+    padding: 20px;
+    width: 50%;
+    margin: 0 ;
+}
+
+
+
+div img {
+    margin: 0
+}
+
+header {
+    background: #fff;
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 20px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+h1 {
+    font-size: 2.9rem;
+    color: #002b51;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #002b51;
+    margin-bottom: 30px;
+}
+
+p {
+    color: #454545;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+    line-height: 14px;
+    font-weight: 700;
+    
+}
+
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul li {
+    font-size: 1.4rem;
+    color: #454545;
+}
+section {
+    font-size: 1.5rem;
+    display: block;
+    float: left;
+    background-color: #c8c8c830;
+    width: 100%;
+    padding: 20px;
+
+}
+section nav {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+nav li {
+    background-color:#efefef ;
+    margin: 1px 20px 1px 0;
+    padding: 10px;
+}
+
+nav li:hover {
+    background-color: #c8c8c890;
+}
+
+nav a {
+    text-decoration: none;
+    color: #254159;
+}
+
+nav a:hover {
+    color: #4a82b3;
+}
+
+section article {
+    display: block;
+    float: left;
+    width: 70%;
+    margin: 0;
+}
+
+footer {
+    background-color: #254159;
+    color: white;
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 10px;
+}
+footer p {
+    color: #ffffff;
+    font-size: 1.4rem;
+}
+
+footer small {
+    font-size: 80%;
+    display: block;
+}
+
+
+
+
+@media (max-width: 425px) {
+    section nav,
+    section  {
+        width: 100%;
+    }
+ }
+
+ .article {
+    padding-left: 1%;
+    padding-right: 1%;
+ }
+
+ @media (max-width: 600px) {
+    section nav,
+    section  article{
+        width: 80%;
+    }
+ }
+
+ .article {
+    padding-left: 1%;
+    padding-right: 1%;
+ }
+
+ @media (max-width: 700px) {
+    section nav,
+    section  article{
+        width: 80%;
+    }
+ }
+
+ .article {
+    padding-left: 1%;
+    padding-right: 1%;
+ }
